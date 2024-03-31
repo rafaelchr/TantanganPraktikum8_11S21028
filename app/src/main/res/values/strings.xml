@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">My Gmail</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_mail_sender">Nama Pengirim</string>
+    <string name="info_mail_icon">Icon Pengirim</string>
+    <string name="info_mail_title">Judul Mail</string>
+    <string name="info_mail_cont">Konten Mail</string>
+    <string name="info_video_name">Nama Penelepon</string>
+    <string name="info_video_icon">Icon Pengirim</string>
+    <string name="info_video_time">Waktu Telepon</string>
+
+    <string-array name="mail_sender">
+        <item>Pengirim 1</item>
+        <item>Pengirim 2</item>
+        <item>Pengirim 3</item>
+        <item>Pengirim 4</item>
+        <item>Pengirim 5</item>
+        <item>Pengirim 6</item>
+        <item>Pengirim 7</item>
+        <item>Pengirim 8</item>
+
+    </string-array>
+
+    <string-array name="mail_icon">
+        <item>@drawable/angka1</item>
+        <item>@drawable/angka2</item>
+        <item>@drawable/angka3</item>
+        <item>@drawable/angka4</item>
+        <item>@drawable/angka5</item>
+        <item>@drawable/angka6</item>
+        <item>@drawable/angka7</item>
+        <item>@drawable/angka8</item>
+    </string-array>
+
+    <string-array name="mail_title">
+        <item>Ini adalah title 1</item>
+        <item>Ini adalah title 2</item>
+        <item>Ini adalah title 3</item>
+        <item>Ini adalah title 4</item>
+        <item>Ini adalah title 5</item>
+        <item>Ini adalah title 6</item>
+        <item>Ini adalah title 7</item>
+        <item>Ini adalah title 8</item>
+    </string-array>
+
+    <string-array name="mail_cont">
+        <item>Ini adalah konten 1</item>
+        <item>Ini adalah konten 2</item>
+        <item>Ini adalah konten 3</item>
+        <item>Ini adalah konten 4</item>
+        <item>Ini adalah konten 5</item>
+        <item>Ini adalah konten 6</item>
+        <item>Ini adalah konten 7</item>
+        <item>Ini adalah konten 8</item>
+    </string-array>
+
+    <string-array name="video_name">
+        <item>Penelepon 1</item>
+        <item>Penelepon 2</item>
+        <item>Penelepon 3</item>
+        <item>Penelepon 4</item>
+        <item>Penelepon 5</item>
+        <item>Penelepon 6</item>
+        <item>Penelepon 7</item>
+        <item>Penelepon 8</item>
+    </string-array>
+
+    <string-array name="video_icon">
+        <item>@drawable/angka1</item>
+        <item>@drawable/angka2</item>
+        <item>@drawable/angka3</item>
+        <item>@drawable/angka4</item>
+        <item>@drawable/angka5</item>
+        <item>@drawable/angka6</item>
+        <item>@drawable/angka7</item>
+        <item>@drawable/angka8</item>
+    </string-array>
+
+    <string-array name="video_time">
+        <item>12.00</item>
+        <item>13.00</item>
+        <item>15.40</item>
+        <item>16.00</item>
+        <item>16.09</item>
+        <item>17.45</item>
+        <item>18.45</item>
+        <item>20.45</item>
+    </string-array>
+
+</resources>

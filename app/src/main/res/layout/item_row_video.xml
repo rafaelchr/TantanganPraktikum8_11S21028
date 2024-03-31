@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/ivItemMail"-->
+        <!--            android:layout_width="70dp"-->
+        <!--            android:layout_height="70dp"-->
+        <!--            android:contentDescription="@string/info_mail_icon"-->
+        <!--            app:srcCompat="@drawable/video_svgrepo_com"-->
+        <!--            tools:ignore="ImageContrastCheck" />-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivItemVideo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/info_video_icon"
+            android:src="@drawable/ic_launcher_background"
+            tools:ignore="ImageContrastCheck"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="@string/info_video_name"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvItemTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:text="@string/info_video_time"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

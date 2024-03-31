@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Utama" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_disc"
+            android:title="Promosi" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_person"
+            android:title="Sosial" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_send"
+            android:title="Terkirim" />
+        <item
+            android:id="@+id/nav_pending"
+            android:icon="@drawable/ic_pending"
+            android:title="Terjadwal" />
+    </group>
+</menu>

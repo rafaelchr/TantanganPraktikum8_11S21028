@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/email_1_svgrepo_com"
+        android:title="Mail" />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/video_svgrepo_com"
+        android:title="Video Call" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_notifications"-->
+<!--        android:icon="@drawable/ic_notifications"-->
+<!--        android:title="Notifications" />-->
+</menu>
